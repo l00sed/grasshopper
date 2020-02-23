@@ -66,7 +66,7 @@ function init() {
   
   var loader = new THREE.ObjectLoader( manager );
 
-  loader.load( '/example_scene.json', function(obj) {
+  loader.load( '../example_scene.json', function(obj) {
     object = obj;
   }, onProgress, onError );
 
