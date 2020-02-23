@@ -66,7 +66,7 @@ function init() {
   
   var loader = new THREE.ObjectLoader( manager );
 
-  loader.load( 'test.json', function(obj) {
+  loader.load( '../test.json', function(obj) {
     object = obj;
   }, onProgress, onError );
 
