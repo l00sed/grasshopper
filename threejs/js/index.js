@@ -64,9 +64,9 @@ function init() {
 
   function onError() {}
   
-  var loader = new THREE.ObjectLoader( manager );
+  var loader = new THREE.FBXLoader( manager );
 
-  loader.load( '../test.json', function(obj) {
+  loader.load( '../test.fbx', function(obj) {
     object = obj;
   }, onProgress, onError );
 
