@@ -10,7 +10,7 @@
 
 3. Drag the number slider to choose from the available branches.
 
-4. Click the 'git pull' button to download the latest files / grasshopper script to your local machine.
+4. You can click the 'git pull' button to download the latest files / grasshopper script to your local machine. However, I recommend using an actual terminal to pull before opening Rhino at all.
 
 ## Pushing to Remote
 
