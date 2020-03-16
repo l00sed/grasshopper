@@ -1,6 +1,6 @@
-#README
+# README
 
-##Getting Started
+## Getting Started
 
 1. Add a new panel with your 'Username' and 'Email' to link to your GitHub account.
 
@@ -10,7 +10,9 @@
 
 3. Drag the number slider to choose from the available branches.
 
-##Pushing to remote
+4. Click the 'git pull' button to download the latest files / grasshopper script to your local machine.
+
+## Pushing to Remote
 
 1. After making changes, *SAVE* your grasshopper file.
 
