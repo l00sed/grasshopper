@@ -2,7 +2,7 @@
 
 1. Before getting started, create an account at [food4rhino.com](https://food4rhino.com) and download the latest version of [GitHopper](https://www.food4rhino.com/app/githopper).
 
-2. Move the grasshopper python script to C:/Users/USERNAME/AppData/Roaming/Grasshopper/Libraries
+2. Move the grasshopper python script to `C:/Users/USERNAME/AppData/Roaming/Grasshopper/Libraries`
 
 3. You may need to right-click on the file, select properties, and check the "Unblock" toggle.
 
