@@ -18,4 +18,4 @@
 
 3. Click the 'git commit' button to commit your changes with the optional "Commit Message" text (you can change this in the panel, default is "updated").
 
-4. Click the 'git push' button to push to the remote repo. You should receive a pop-up to put in your GitHub credentials.
+4. Click the 'git push' button to push to the remote repo. You should receive a pop-up to put in your GitHub credentials. If the pop-up closes without any additional dialog, you might want to try again (you probably didn't enter your password correctly).
