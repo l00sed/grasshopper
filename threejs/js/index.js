@@ -30,12 +30,6 @@ function init() {
   // ==========================================
 
   function loadModel() {
-    /*object.traverse( function ( child ) {
-      var material = new THREE.MeshPhongMaterial( { color: 0xFFFFFF, flatShading: false, emissive: 0xBBBBBB, emissiveIntensity: 0.45, specular: 0xffffff } );
-      if ( child.isMesh ) child.material = material;
-      if ( child.material ) child.material.side = THREE.DoubleSide;
-    } );*/
-
     object.position.y = 10;
     scene.add( object );
   }
@@ -83,19 +77,19 @@ function init() {
   targetObj.position.set(0, 0, 20);
   scene.add( targetObj );
 
-  var light1 = new THREE.DirectionalLight( 0xffffff, .3 );
+  var light1 = new THREE.DirectionalLight( 0xffffff, 1 );
   for(var i=0;i<10;i++) {
     light1.position.set(15, 15, Math.PI*(i));
   }
   light1.target = targetObj;
   scene.add( light1 );
 
-  var light2 = new THREE.DirectionalLight( 0xEEEEEE, .2 );
+  var light2 = new THREE.DirectionalLight( 0xEEEEEE, 1 );
   light2.position.set(-15, -15, 0);
   light2.target = targetObj;
   scene.add( light2 );
 
-  var light3 = new THREE.AmbientLight( 0xDDDDDD, 1 );
+  var light3 = new THREE.AmbientLight( 0xf85c37, 1 );
   scene.add( light3 );
 
   //
